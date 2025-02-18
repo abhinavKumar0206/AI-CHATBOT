@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- we have made this div to store the chats of the user and respective responses -->
+        <!-- <div class="user-chat-box"> -->
+            <!-- we have made this div inside the chat container because , here we are going to store the user chats -->
+            <!-- now again in this user chat box we will have two things first would be the user avatar 
+            that we will be downloading and putting the link as src and we will give it a ID as well 
+            for the ease of access  -->
+            <!-- <img src="user2.jpg"  id="userImage" width="50"> -->
+            <!-- after the user vatar we will have a text area we will call it as user chat area wher the user texts will appear -->
+            <!-- <div class="user-chat-area"> -->
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maxime maiores, officia magnam, iusto nulla sequi quidem deserunt accusamus eius nobis praesentium sit modi earum id vero? Distinctio, quo quod? -->
+
+            <!-- </div> -->
+        <!-- </div> -->
+
+         <div class="ai-chat-box">
+            <!-- we have made this div inside the chat container because , here we are going to store the ai chats -->
+            <!-- just like user we will have the avatar and text area for the AI bot as well -->
+            <img src="chatbot.jpg" id="aiImage" width="55">
+            <div class="ai-chat-area">
+                    Hello World!                
+            </div>
+        </div>
+    </div>
+
+    <div class="prompt-area">
+        <!-- we have ade this div inorder to give the prompts that is inputs -->
+        <input type="text" id="prompt" placeholder="Message...">
+        <button id="image"><img src="img.svg" alt="">
+        <input type="file" accept="images/*" hidden></button> 
+        <button id="submit"><img src="submit.svg" alt=""></button>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
